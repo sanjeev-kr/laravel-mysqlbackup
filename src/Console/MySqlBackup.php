@@ -11,7 +11,7 @@ class MySqlBackup extends BaseCommand
      *
      * @var string
      */
-    protected $signature = 'make:mysql:backup {filename} {format}';
+    protected $signature = 'make:mysqlbackup {filename} {format}';
     /**
      * The console command description.
      *

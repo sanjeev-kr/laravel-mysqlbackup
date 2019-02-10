@@ -20,10 +20,10 @@ class MySqlBackupServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('command.make:mysql:backup', MySqlBackup::class);
+        $this->app->bind('command.make:mysqlbackup', MySqlBackup::class);
 
         $this->commands([
-            'command.make:mysql:backup'
+            'command.make:mysqlbackup'
         ]);
     }
 

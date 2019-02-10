@@ -10,18 +10,18 @@ Sanjeev\MySqlBackup\MySqlBackupServiceProvider::class
 ```
 To take backup run below commnad
 ```
-php artisan make:mysql:backup filename format
+php artisan make:mysqlbackup filename format
 ```
 ## Examples
 - To make backup in sql format run below command
 ```
-php artisan make:mysql:backup mybackup sql
+php artisan make:mysqlbackup mybackup sql
 ```
 Backup would be created in storage/backup directory with file name mybackup_2019_02_10.sql. Date format yyyy_mm_dd is appended to given file name.
 
 - To make backup in sql.gz format run below command
 
 ```
-php artisan make:mysql:backup mybackup sql.gz
+php artisan make:mysqlbackup mybackup sql.gz
 ```
 Backup would be created in storage/backup directory with file name mybackup_2019_02_10.sql.gz. Date format yyyy_mm_dd is appended to given file name.
